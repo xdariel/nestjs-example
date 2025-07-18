@@ -17,6 +17,6 @@ RUN  rm -r src
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 
-EXPOSE 3000
+EXPOSE 4000
 
 CMD [ "pm2-runtime", "dist/main.js" ]
